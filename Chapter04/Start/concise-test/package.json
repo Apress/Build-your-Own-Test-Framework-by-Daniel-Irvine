@@ -1,0 +1,13 @@
+{
+  "name": "concise-test",
+  "version": "2.0.0",
+  "description": "A concise test runner for Node that uses ES6 modules",
+  "type": "module",
+  "bin": "./src/cli.mjs",
+  "exports": {
+    ".": "./src/runner.mjs"
+  },
+  "prettier": {
+    "printWidth": 58
+  }
+}

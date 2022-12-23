@@ -1,0 +1,13 @@
+{
+  "name": "todo-example",
+  "version": "1.0.0",
+  "description": "An example codebase that's used in the book Build Your Own Test Framework",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "node test/tests.mjs"
+  },
+  "type": "module",
+  "prettier": {
+    "printWidth": 58
+  }
+}
